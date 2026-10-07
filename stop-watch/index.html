@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        #container p{
+            display: inline-block;
+            margin-top: 250px;
+            font-size: 5rem;
+            padding: 10px;
+            
+        }
+        #container{
+            display: flex;
+            justify-content: center;
+            height: 100%;
+            width: 100%;
+           
+          
+        }
+        #watch{
+            background-color: tomato;
+             height: 350px;
+             width: 750px;
+             text-align: center;
+             margin-top: 70px;
+             padding: 10px;
+             border-radius: 20px;
+             box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+            
+             
+        }
+        .btn{
+            padding: 15px;
+            border-radius: 15px;
+            margin: 5px;
+            border-style: none;
+            font-size: 1.5rem;
+
+        }
+       
+        #wat{
+            position: relative;
+            bottom: 180px; 
+        }
+        #st{
+            background-color: rgb(85, 212, 85);
+        }
+        #stop{
+            background-color: red;
+        }
+        #reset{
+            background-color: cornflowerblue;
+        }
+        .start-active{
+            pointer-events: none;
+            
+        }
+    </style>
+</head>
+<body>
+   <div id="container">
+    <div id="watch">
+        
+            <div id="wat">
+    <p id="hour">00</p>
+    <p>:</p>
+    <p id="minutes">00</p>
+    <p>:</p>
+    <p id="seconds">00</p>
+    <p>:</p>
+    <p id="milli">00</p>
+    <div id="btncon">
+     <button class="btn" id="st" onclick="start()">Start</button>
+    <button class="btn"  id="stop" onclick="stop()">Stop</button>
+    <button class="btn" id="reset" onclick="reset()">Reset</button>
+     </div>
+     </div>
+    
+   </div>
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>

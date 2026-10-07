@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+
+   
+    <table border="2">
+       <tr>
+        <td><h3>Name</h3></td>
+        <td><input type="text" name="" id="nameinput"></td>
+    </tr>
+    <tr>
+        <td><h3>Age</h3></td>
+        <td><input type="text" name="" id="ageinput"></td>
+    </tr>
+    <tr>
+        <td><h3>Gender</h3></td>
+        <td>Male<input type="radio" name="Male" id="males" > Female <input type="radio" name="Male" id="female"></td>
+    </tr>
+    <tr>
+        <td><h3>Courses</h3></td>
+        <td>
+            <select name="" id="course">
+                <option value="">java</option>
+             <option value="">python</option>
+             <option value="">Dbms</option>
+            </select>   
+        </td>
+    </tr>
+    <tr>
+        <td><h3>Email</h3></td>
+        <td><input type="email" name="" id="email"></td>
+    </tr>
+    <tr>
+        <td><Button id="save" onclick="submit()">save</Button></td>
+    </tr>
+    </table>
+     </div>
+     <div id="box">
+
+     
+     <table border="1" id="result">
+         <th>Name</th>
+         <th>Age</th>
+         <th>Gender</th>
+         <th>Courses</th>
+         <th>E-mail</th>
+         <th>action</th>
+         <tr id="add">
+           
+         </tr>
+     </table>
+     </div>
+     <script src="script.js"></script>
+</body>
+</html>

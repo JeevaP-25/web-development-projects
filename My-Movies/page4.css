@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+ul{
+    list-style: none;
+}
+ul,li,h2{
+    display: inline;
+}
+ul{
+    margin-left: 780px;
+}
+h2{
+    margin-left: 20px;
+}
+li{
+    padding: 10px;
+}
+#nav{
+    background-color: darkkhaki;
+    padding: 8px;
+}
+#container{
+    margin-top: 15px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    
+}
+.im{
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    margin: 20px;
+    box-shadow:5px 5px rgb(39, 40, 42);
+    transition: transform 0.3s ease; /* smooth zoom effect */
+}
+.im:hover {
+  transform: scale(1.1); /* zooms the image by 20% */
+}

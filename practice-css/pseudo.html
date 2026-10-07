@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-letter{
+            color: red;
+            background-color: wheat;
+        }
+       p::selection{
+        background-color: hsla(240, 83%, 66%, 0.973);
+        color: white;
+       }
+       .content a{
+        display: block;
+        text-decoration: none;
+        color: black;
+       }
+       .content{
+       background-color: bisque;
+        height: 50px;
+        width: 50px;
+        padding: 8px;
+        border-radius: 8px;
+        display: block;
+       }
+       .drop{
+        background-color: aquamarine;
+        display: inline;
+        height: auto;
+        width: 100px;
+       }
+       #box{
+        background-color: red;
+        height: 200px;
+        width: 200px;
+        text-align:center;
+        animation-name: left,right;
+        animation-duration: 2s;
+       }
+       @keyframes left{
+         from{transform:translateX(100%)}
+       }
+       @keyframes right{
+        to{transform: translateY(100%);}
+    }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <div class="drop">
+        <button>food</button>
+        <div class="content">
+            <a href="">apple</a>
+            <a href="">banana</a>
+            <a href="">grapes</a>
+        </div>
+    </div>
+    <div id="box">
+         <h2>hiiii</h2>
+    </div>
+</body>
+</html>

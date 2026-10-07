@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+}
+#inputbox{
+    margin-top: 250px;
+    display: inline-flex;
+    
+}
+#text{
+    width: 400px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 25px;
+    border-right: none;
+    border-color: tomato;
+    outline: none;
+    background-color: rgb(244, 171, 119);
+    color: black;
+    font-size: 1rem;
+}
+#search{
+    padding: 10px;
+    border:none;
+    background-color: tomato;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    font-size: 0.8rem;
+}
+
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <button id="change" onclick="change()">change</button>
+        <button id="remove" onclick="remove()">remove</button>
+    </div>
+    <script>
+        function change(){
+           let btn = document.getElementById('change');
+           let con = document.getElementById('container');
+           let newele = document.createElement("p");
+           newele.textContent = "success";
+           con.appendChild(newele);
+        }
+        function remove(){
+           let btn = document.getElementById('remove');
+           let con = document.getElementById('container');
+           let newele = document.createElement("p");
+           con.removeChild(newele);
+        }
+    </script>
+</body>
+</html>

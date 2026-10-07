@@ -1,0 +1,110 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  
+}
+#container{
+    display: flex;
+}
+#bookman{
+    background-color: tomato;
+    padding: 15px;
+}
+#books{
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    width: 190px;
+    height: 290px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+#delete{
+    background-color: tomato;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: rgba(0, 0, 0, 0.995);
+    border-style:solid;
+}
+.bookname{
+    color: rgb(236, 54, 54);
+}
+.author{
+    color: white;
+}
+
+/* for + button */
+
+
+#foot{
+    display: flex;
+    justify-content:flex-end;
+    margin-top: 90px;
+    margin-right:30px ;
+    
+}
+#add{
+    padding: 15px;
+    border-radius: 40px;
+    font-size: x-large;
+    border-style: solid;
+    border-color: black;
+    background-color: burlywood;
+}
+/* popup */
+#con{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#popup{
+    height: 160px;
+    width: 180px;
+    padding: 20px;
+    position: absolute;
+    top: 180px;
+    background-color: tomato;
+    border-radius: 20px;
+    display: none;
+}
+/* popup input */
+#booktitle{
+    padding: 5px;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+    
+}
+#bookauthor{
+     padding: 5px;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+    margin-top: 10px;
+}
+#des{
+    padding: 5px;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+    margin-top: 10px;
+}
+/* overlay */
+
+#overlay{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    opacity: 0.8;
+    display: none;
+    
+}

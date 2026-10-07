@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="result"></h2>
+    <button id="one" onclick="display()">jeeva</button>
+    <button id="two" onclick="display()">sharath</button>
+    <button id="three" onclick="display()"s>inba</button>
+    <h1 id="ones" onclick="turn(event)">1</h1>
+    <!-- <h1 class="one" onclick="turn()">2</h1>
+    <h1 class="one" onclick="turn()">3</h1>
+    <h1 class="one" onclick="turn()">4</h1>
+    <h1 class="one" onclick="turn()">5</h1> -->
+    <script>
+        let one = document.getElementById('one');
+        let two = document.getElementById('two');
+        let three = document.getElementById('three');
+        let h2 = document.getElementById('result');
+
+        function display(){
+              h2.textContent = one.textContent;
+        }
+        let change = document.getElementById('ones');
+        function turn(event){
+            change.remove()
+            console.log(event)
+        }
+    </script>
+</body>
+</html>

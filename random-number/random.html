@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            height: 250px;
+            width: 250px;
+            background-color: tomato;
+            text-align: center;
+            font-size: 3em;
+            border-radius: 20px;
+            margin-left: 40%;
+            margin-top: 110px;
+            box-shadow: 4px 6px black;
+        }
+        #roll{
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: 25px;
+            background-color: bisque;
+        }
+        #roll:hover{
+            background-color: rgb(240, 202, 152);
+        }
+        #container h2{
+            padding-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h2 id="num">0</h2>
+        <button id="roll" onclick="roll()">Roll The Dice</button>
+    </div>
+    <script src="random.js"></script>
+</body>
+</html>

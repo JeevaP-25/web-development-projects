@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>First Calculator</h2>
+    <div id="container">
+        <input id="display" readonly>
+        <div id="keys">
+            <button onclick="toappend('+')">+</button>
+            <button onclick="toappend('7')">7</button>
+            <button onclick="toappend('8')">8</button>
+            <button onclick="toappend('9')">9</button>
+            <button onclick="toappend('-')">-</button>
+            <button onclick="toappend('4')">4</button>
+            <button onclick="toappend('5')">5</button>
+            <button onclick="toappend('6')">6</button>
+            <button onclick="toappend('*')">*</button>
+            <button onclick="toappend('1')">1</button>
+            <button onclick="toappend('2')">2</button>
+            <button onclick="toappend('3')">3</button>
+            <button onclick="toappend('/')">/</button>
+            <button onclick="toappend('0')">0</button>
+            <button onclick="toappend('.')">.</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="cleardisplay()">C</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
